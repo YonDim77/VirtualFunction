@@ -59,17 +59,8 @@ namespace VirtualFunction
     {
         static void Main(string[] args)
         {
-            //            People p = new People("Yonko", "1234567890");
-            //            p.printP();
-            //            Student S = new Student("Yonko", "1234567890", 23345, "Dobri Voinikov street 18");
-            //            S.printS();
-//            Student S = new Student("Yonko", "1234567890", 23345, "Dobri Voinikov street 18");
-            //            S.printS();
-            //            Student S = new Student("Yonko", "1234567890", 23345, "Dobri Voinikov street 18");
-            //            S.printS();
             Pstudent ps = new Pstudent("Yonko", "1234567890", 23345, "Dobri Voinikov street 18", 345.0);
             ps.print();
-
         }
     }
 }
